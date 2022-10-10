@@ -36,7 +36,7 @@ export default e => {
   }; */
   const sounds = useSound();
   const soundFiles = sounds.getSoundFiles();
-  const soundIndex=soundFiles.combat.map(sound => sound.name).indexOf('https://helloama.github.io/Phettamachine-gun/gunsound.wav');
+  const soundIndex=soundFiles.combat.map(sound => sound.name).indexOf('${baseUrl}/gunsound.wav');
   
   
   let pointLights = [];
