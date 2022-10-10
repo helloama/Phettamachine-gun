@@ -23,7 +23,7 @@ export default e => {
   const physics = usePhysics();
   const scene = useScene();
   
-  app.name = 'Phettaverse-P-Shooter';
+  app.name = 'Phettaverse P-Shooter';
 
   const worldLights = app;
   /* const _updateSubAppMatrix = subApp => {
@@ -36,7 +36,7 @@ export default e => {
   }; */
   const sounds = useSound();
   const soundFiles = sounds.getSoundFiles();
-  const soundIndex=soundFiles.combat.map(sound => sound.name).indexOf('gunsound.wav');
+  const soundIndex=soundFiles.combat.map(sound => sound.name).indexOf('combat/Colt45_Shot2.wav');
   
   
   let pointLights = [];
