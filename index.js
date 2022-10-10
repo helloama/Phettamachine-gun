@@ -23,7 +23,7 @@ export default e => {
   const physics = usePhysics();
   const scene = useScene();
   
-  app.name = 'Thompson';
+  app.name = 'Phettaverse P-Shooter';
 
   const worldLights = app;
   /* const _updateSubAppMatrix = subApp => {
