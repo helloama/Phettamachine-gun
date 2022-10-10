@@ -146,7 +146,7 @@ export default e => {
     }
     
     {
-      let u2 = `${baseUrl}tommy.glb`;
+      let u2 = `${baseUrl}Phettagunanim.glb`;
       if (/^https?:/.test(u2)) {
         u2 = '/@proxy/' + u2;
       }
